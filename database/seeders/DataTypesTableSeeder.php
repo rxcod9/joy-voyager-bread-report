@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'reports',
                 'display_name_singular' => __('joy-voyager-bread-report::seeders.data_types.report.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-report::seeders.data_types.report.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-report voyager-file-text',
                 'model_name'            => 'Joy\\VoyagerBreadReport\\Models\\Report',
                 // 'policy_name'           => 'Joy\\VoyagerBreadReport\\Policies\\ReportPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadReport\\Http\\Controllers\\VoyagerBreadReportController',
